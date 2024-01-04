@@ -1,0 +1,47 @@
+
+
+.lesson-header {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  .difficulty-and-button{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin-bottom: 7px;
+  }
+  .keywords{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+  }
+
+
+  
+   .input-field {
+    width: 100%;
+    padding: 8px 0px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+   .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+
+
+.select-difficulty {
+  margin-left: 20px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+

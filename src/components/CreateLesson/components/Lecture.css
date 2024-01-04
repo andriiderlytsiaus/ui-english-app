@@ -1,0 +1,50 @@
+
+.lecture-container {
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+
+  
+
+  
+  .form-input {
+    padding: 8px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .theory-input{
+    padding: 8px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    height: 270px;
+    margin-bottom: 30px;
+  }
+  
+  .submit-theory-container{
+    display: flex;
+    justify-content: flex-end;  
+
+  }
+  .submit-theory {
+    width: 120px;
+    background-color:  #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-theory:hover {
+    background-color: #45a049;
+  }
+  
+  

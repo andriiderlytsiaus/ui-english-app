@@ -1,0 +1,67 @@
+.wallpaper {
+  font-family: "Arial", sans-serif;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 350px;
+  background-image: url('../../../img/BackgroundImg3.jpg');
+  background-size: cover;
+  background-position: center;
+
+  &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+  }
+
+  h3 {
+      font-size: 24px;
+      position: relative;
+      z-index: 3;
+      color: #fff;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 0px;
+  }
+
+  .wallpaper-text {
+      font-size: 18px;
+      position: relative;
+      font-style: italic;
+      z-index: 3;
+      color: #d0c9c9;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 13px;
+  }
+
+  .input-container {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      z-index: 2;
+  }
+
+  input {
+      width: 200px;
+      padding: 8px;
+      border: 2px solid #fff;
+      border-radius: 4px;
+      background-color: transparent;
+      color: #fff;
+  }
+
+  span {
+      margin-left: 8px;
+      cursor: pointer;
+      color: #fff;
+      font-size: 18px;
+  }
+}

@@ -1,0 +1,28 @@
+.fill-in-the-blank-quiz {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    font-size: 16px;
+    padding: 10px;
+
+  }
+  
+
+
+  .fill-in-the-blank-options{
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #F0F0F0;
+
+  }
+
+.correct {
+    background-color: #90ee90; 
+  }
+  
+.incorrect {
+    background-color: #ffcccb; 
+  }

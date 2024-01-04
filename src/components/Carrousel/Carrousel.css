@@ -1,0 +1,33 @@
+
+.carousel{
+    background-color: rgb(245, 255, 255);
+    min-height: 300px;
+}
+.carousel-container {
+    width: 70%;
+    margin: auto;
+    padding: 25px 20px;
+    perspective: 1000px;
+    font-size: 26px;
+  }
+  
+  .description-item {
+    width: 650px !important; 
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .slick-slide {
+    transform: scale(0.8) rotateY(45deg);
+    transition: transform 0.5s;
+  }
+  
+  .slick-center .description-item {
+    transform: scale(1);
+  }
+  

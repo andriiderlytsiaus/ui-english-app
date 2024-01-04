@@ -1,0 +1,30 @@
+
+
+  .question-container {
+    margin-bottom: 20px;
+
+  }
+  .question-input {
+    padding: 8px 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .answer-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .answer-select {
+    flex: 1;
+    padding: 8px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+ 
+  

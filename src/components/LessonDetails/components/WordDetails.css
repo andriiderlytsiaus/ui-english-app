@@ -1,0 +1,60 @@
+
+.WordDetailsContainer {
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .WordDetailsHeader{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .WordDetailsHeading {
+    font-size: 24px;
+    color: #1d2a57;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .PartOfSpeechHeading {
+    font-size: 16px;
+    color: #1d2a57;
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .WordDetailsList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+  .WordDetailsListItem {
+    margin-bottom: 15px;
+  }
+  
+
+  .PartOfSpeech {
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  .Example {
+    color: #555;
+    font-style: italic;
+
+  }
+  
+
+  .LoadingMessage {
+    color: #1d2a57;
+  }
+
+
+.ScrollableContainer {
+    height: 515px;
+    overflow-y: auto;
+  }
+  

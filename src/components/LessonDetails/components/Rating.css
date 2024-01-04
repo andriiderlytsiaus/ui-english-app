@@ -1,0 +1,61 @@
+.topic-rating-container{
+    padding: 10px;
+
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.teacher-rating-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.teacher{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+}
+.teacher p{
+    font-weight: 400;
+}
+.topic{
+    margin-bottom: 4px;
+
+}
+.thumbs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.teacher-img{
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #cbccce;
+}
+
+.thumb {
+    height: 23px;
+    color: #293f65;
+
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .thumb.solid {
+    opacity: 1;
+  }
+  
+
+  .shake {
+    animation: shake 0.5s ease-in-out;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-5px); }
+    40% { transform: translateX(5px); }
+    60% { transform: translateX(-5px); }
+    80% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+  }

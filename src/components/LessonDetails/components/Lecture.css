@@ -1,0 +1,60 @@
+.lecture-box{
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+.lecture-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .lecture-title {
+    padding-top: 10px;
+    color: #494747;
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .lecture-goal {
+    padding: 10px 20px;
+  }
+
+  .lecture-theory {
+    height: 480px; 
+    overflow: auto;
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  .lecture-goal{
+    font-style: italic;
+    color: #3c5182;
+    font-weight: 500;
+  }
+  
+
+  .lecture-difficulty{
+    text-align: center;
+    color: #3c5182;
+    font-weight: 600;
+
+
+    
+  }
+  .lecture-difficulty strong,
+  .lecture-goal strong,
+  .lecture-theory strong {
+    color: #333;
+    font-weight: 500;
+    
+  }
