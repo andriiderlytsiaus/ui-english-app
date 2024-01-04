@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ui-english-app/static/css/main.c10f1ebb.css",
+    "main.js": "/ui-english-app/static/js/main.a3a456e2.js",
+    "static/js/787.0f7dc5a1.chunk.js": "/ui-english-app/static/js/787.0f7dc5a1.chunk.js",
+    "static/media/BackgroundImg3.jpg": "/ui-english-app/static/media/BackgroundImg3.fd2b41e9b1131c38283a.jpg",
+    "static/media/TeacherImg.png": "/ui-english-app/static/media/TeacherImg.bb2366a2a734289aadad.png",
+    "static/media/LectureImg.png": "/ui-english-app/static/media/LectureImg.f15973f5798530266706.png",
+    "static/media/MultipleChoiceImg.jpg": "/ui-english-app/static/media/MultipleChoiceImg.289860ddc1d60f6ae64d.jpg",
+    "static/media/MatchTheWordsImg.jpg": "/ui-english-app/static/media/MatchTheWordsImg.fb47a451d32bb630ae51.jpg",
+    "static/media/FillInTheBlanksImg.jpg": "/ui-english-app/static/media/FillInTheBlanksImg.af4a0dba9fbb451ff24b.jpg",
+    "static/media/TrueFalseImg.jpg": "/ui-english-app/static/media/TrueFalseImg.28cf5199e6a7043b5b06.jpg",
+    "static/media/slick.svg": "/ui-english-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ui-english-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/ui-english-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ui-english-app/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/ui-english-app/index.html",
+    "main.c10f1ebb.css.map": "/ui-english-app/static/css/main.c10f1ebb.css.map",
+    "main.a3a456e2.js.map": "/ui-english-app/static/js/main.a3a456e2.js.map",
+    "787.0f7dc5a1.chunk.js.map": "/ui-english-app/static/js/787.0f7dc5a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c10f1ebb.css",
+    "static/js/main.a3a456e2.js"
+  ]
+}
